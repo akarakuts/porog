@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Порог</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_help">Помощь</string>
+    <string name="nav_about">О программе</string>
+    <string name="nav_back">Назад</string>
+
+    <string name="perm_grant">Разрешить</string>
+    <string name="perm_location_rationale">Геолокация нужна для погоды и точки парковки. Данные остаются на телефоне.</string>
+    <string name="perm_calendar_rationale">Календарь нужен, чтобы показать следующую встречу и во сколько выходить. Можно не давать.</string>
+    <string name="perm_notify_rationale">Уведомления напомнят, когда пора выходить. Можно не давать.</string>
+
+    <string name="weather_title">Погода</string>
+    <string name="weather_temp">%1$d°</string>
+    <string name="weather_error">Не удалось загрузить погоду. Проверьте сеть.</string>
+    <string name="weather_no_location">Ждём координаты…</string>
+    <string name="weather_need_umbrella">Возьмите зонт.</string>
+    <string name="weather_need_snow">Возможен снег — одевайтесь теплее.</string>
+    <string name="weather_need_coat">Мороз — нужна куртка потеплее.</string>
+    <string name="weather_need_jacket">Возьмите куртку.</string>
+    <string name="weather_clear">Дополнительно ничего не нужно.</string>
+    <string name="weather_take_umbrella">Возьмите зонт.</string>
+    <string name="weather_take_jacket">Возьмите куртку.</string>
+
+    <string name="leave_title">Выход</string>
+    <string name="leave_by">Выходите в %1$s</string>
+    <string name="leave_event">%1$s · начало %2$s</string>
+    <string name="leave_no_event">Ближайших событий на полтора дня нет.</string>
+    <string name="leave_untitled">Событие</string>
+    <string name="leave_in">через %1$s</string>
+    <string name="leave_now">Пора выходить</string>
+    <string name="leave_overdue">опоздание %1$s</string>
+    <string name="duration_min">%1$d мин</string>
+    <string name="duration_hour_min">%1$d ч %2$d мин</string>
+    <string name="hourly_next">Ближайшие часы</string>
+    <string name="perm_needed_title">Чтобы всё работало</string>
+    <string name="home_tagline">Десять секунд у порога</string>
+
+    <string name="checklist_title">Не забыть</string>
+    <string name="checklist_progress">%1$d из %2$d</string>
+    <string name="checklist_done">Всё собрано</string>
+    <string name="checklist_clear">Сбросить все галочки</string>
+    <string name="checklist_item_keys">Ключи</string>
+    <string name="checklist_item_wallet">Кошелёк</string>
+    <string name="checklist_item_pass">Пропуск</string>
+    <string name="checklist_item_headphones">Наушники</string>
+    <string name="checklist_item_charger">Зарядка</string>
+    <string name="checklist_item_pills">Лекарства</string>
+    <string name="checklist_item_custom">Пункт</string>
+
+    <string name="parking_title">Парковка</string>
+    <string name="parking_save">Я припарковался</string>
+    <string name="parking_find">Где машина</string>
+    <string name="parking_saved">Сохранено в %1$s</string>
+    <string name="parking_empty">Нажмите один раз, когда припарковались. Потом карты проведут к точке.</string>
+    <string name="parking_error">Не удалось получить точку. Выйдите на улицу или подождите.</string>
+
+    <string name="settings_commute">Время на дорогу</string>
+    <string name="settings_commute_value">%1$d мин</string>
+    <string name="settings_notify">Напоминание</string>
+    <string name="settings_notify_enable">Напомнить, когда пора выходить</string>
+    <string name="settings_notify_lead">За %1$d мин до выхода</string>
+    <string name="settings_checklist">Пункты чеклиста</string>
+    <string name="settings_new_item">Новый пункт</string>
+    <string name="settings_add_item">Добавить</string>
+    <string name="settings_delete_item">Убрать из списка</string>
+    <string name="settings_icon_hint">Значок подбирается по названию; можно выбрать другой</string>
+    <string name="settings_icon_pick">Выбрать значок</string>
+
+    <string name="help_why_title">Зачем Порог?</string>
+    <string name="help_why_body">Откройте приложение, когда берёте телефон и выходите из дома. За несколько секунд видно погоду, во сколько выходить, что взять с собой, и можно сохранить парковку. Без аккаунта.</string>
+    <string name="help_weather_title">Погода</string>
+    <string name="help_weather_body">Используются геолокация и Open-Meteo. Показаны температура сейчас, ближайшие часы и подсказка: зонт, куртка или пальто.</string>
+    <string name="help_leave_title">Во сколько выходить</string>
+    <string name="help_leave_body">Берётся следующее событие из календаря минус время на дорогу из настроек. Пробки в этой версии не учитываются.</string>
+    <string name="help_checklist_title">Чеклист</string>
+    <string name="help_checklist_body">Отмечайте ключи, кошелёк и остальное на выходе. Галочки сбрасываются каждый день. Свои пункты — в настройках.</string>
+    <string name="help_parking_title">Парковка</string>
+    <string name="help_parking_body">«Я припарковался» сохраняет точку GPS. «Где машина» открывает карты на телефоне.</string>
+    <string name="help_widget_title">Виджет</string>
+    <string name="help_widget_body">Добавьте виджет «Порог» на рабочий стол: температура и время выхода без открытия приложения. Долгое нажатие на рабочий стол → виджеты → Порог.</string>
+    <string name="help_perm_title">Разрешения</string>
+    <string name="help_perm_body">Геолокация: погода и парковка. Календарь: следующая встреча (необязательно). Уведомления: напоминание выйти (необязательно). Всё хранится на устройстве.</string>
+    <string name="help_open_about">О программе</string>
+
+    <string name="about_tagline">Десять секунд у порога. Погода, время выхода, чеклист и парковка — без аккаунта.</string>
+    <string name="about_version">Версия %1$s (%2$d)</string>
+    <string name="about_author">Алексей Каракуц</string>
+    <string name="about_license">GNU General Public License v3</string>
+    <string name="about_email">Написать автору</string>
+    <string name="about_source">Исходный код на GitHub</string>
+
+    <string name="widget_name">Порог</string>
+    <string name="widget_temp">%1$d°</string>
+    <string name="widget_leave">Выход %1$s</string>
+    <string name="widget_description">Погода и время выхода</string>
+
+    <string name="notify_channel_name">Пора выходить</string>
+    <string name="notify_channel_desc">Напоминание перед выходом на встречу</string>
+    <string name="notify_leave_title">Пора выходить</string>
+    <string name="notify_leave_text">Возьмите нужное и выходите.</string>
+    <string name="notify_leave_plain">Выходите на следующее событие</string>
+    <string name="widget_placeholder">Порог</string>
+</resources>
